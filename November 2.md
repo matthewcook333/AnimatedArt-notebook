@@ -17,8 +17,18 @@ How to design the Intermediate Representation (IR). Prof. Ben emphasized that th
 **What questions do you have for your critique partners? How can they best help
 you?**
 
+If you were to use this DSL (i.e. if you wanted to make a quick animation just for fun), what would you like to be able to express? Are there other aspects of this domain that you can think of that might be neat to incorporate? 
+
 **How much time did you spend on the project this week? If you're working in a
 team, how did you share the labor?**
+
+About 3 to 4 hours brainstorming and researching existing ideas (I went through many iterations of projects that ranged from completely different to very similar to the current idea).
+
+2 hours learning Swift and doing Tutorials.
+
+0.5 hours looking over all the projects overview stuff for the rest of the semester.
+
+2 hours both writing up the project plan, description, and notebook, as well as more designing and thinking while doing it.
 
 ## Post-critique summary
 
