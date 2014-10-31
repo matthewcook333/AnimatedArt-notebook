@@ -30,6 +30,8 @@ About 3 to 4 hours brainstorming and researching existing ideas (I went through 
 
 2 hours both writing up the project plan, description, and notebook, as well as more designing and thinking while doing it.
 
+1.5 hours more on learning Swift from Apple's Swift book.
+
 ## Post-critique summary
 
 ## Post-critique reflection
