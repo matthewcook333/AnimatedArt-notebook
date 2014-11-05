@@ -34,4 +34,16 @@ About 3 to 4 hours brainstorming and researching existing ideas (I went through 
 
 ## Post-critique summary
 
+Domain of creating animations seems to be well-defined and useful. Lots of initial design considerations, including: audience, interaction/input, image input, and animation creation. An important design component will be designing the interface, as that is something that is novel and importannt to how a user can express themselves in this domain-specific language. Key difficulties will be how users should be able to express the animations they want easily, as well as the designing the environment for a user to express themselves. The primitives are well-defined for the animation space I am looking to allow users to be in. There are a number of existing libraries/frameworks for this domain, such as ActionScript, BannerZest, and pyglet, all of which can be useful in how I design my language.
+
+My description was a bit confusing as I did not clearly define what the environment and inputs really are. I should think more about the concept of creating "living" images as that is a powerful idea. My discussion of errors was a bit sparse in terms of what type of issues I could expect. I did not consider the idea that there could be too much going on in the drawing, and could possibly crash the application, which would be an error. 
+
+Again, along with my description, my plan is still not very concrete in terms of exactly how users can create animations, whether it is by text or user interface. User testing is a great idea, and I should definitely get input from experienced animators. I should be wary about implementing this in Swift, as there may not be much of a community, and I may find Objective-C to be a better choice because of that. My flexibility in my schedule is good as it is hard to plan exactly how long each portion will take.
+
 ## Post-critique reflection
+
+Thank you so much for the feedback Paul! It was definitely very useful, and helped me think of stuff I wasn't thinking of before. I should have been more concrete in my description, but my plan is to make this DSL solely used through a user interface. I may first textually describe the DSL (as I need some way to implement it in Swift/Objective-C), but will have to spend more time on how the user interface will look. The existing animation stuff you referenced will be very useful as I had not heard of those before, so I will spend some time this week looking into those for help in designing the language. The errors of overloading the amount of animations was something I have not considered, so that was helpful for you to point that out. I'm still unsure as to what I will do for that case, but I am hesitant to limit number of animations as hardware will continue to improve, so it would seem odd to limit it for a specific device. I may just leave it up to the user not to crash the app, but that is something I will consider more. 
+
+The point on Swift vs. Objective-C was helpful, and something that I have considered. Both can work together (TO BE CONTINUED
+
+Also, I appreciate the reinforcement that this is a good and interesting DSL! 
