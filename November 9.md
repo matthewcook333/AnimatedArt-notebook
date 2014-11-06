@@ -22,6 +22,7 @@ you?**
 team, how did you share the labor?**
 
 1 hour on critique
+
 0.5 hour on critique feedback, summary, and reflection
 
 
