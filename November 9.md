@@ -2,6 +2,9 @@
 
 ## Description
 
+Started the week with thinking more about how I want to interface with the language, as well as looking deeply into how Swift/iOS does animation, as that would give me more ideas how I want to make the IR for the animations in order to make the implementing semantics easier. I so far have looked into ways of rotation, where I can essentially give my objects a certain number of degrees to rotate (start and end) and it will simply do so. Looking into doing translation/path, I learned how to drag an object around, as well as create (draw) lines. I will need to look into how to really put those two together, and allow the image to travel along the drawn path.
+
+
 **TODO:** Fill in this part with information about your work this week:
 important design decisions, changes to previous decisions, open questions,
 exciting milestones, preliminary results, etc. Feel free to include images
@@ -24,6 +27,8 @@ team, how did you share the labor?**
 1 hour on critique
 
 0.5 hour on critique feedback, summary, and reflection
+
+2.5 hours looking into Swift, SpriteKit, Animation framework in Swift, drawing tutorials, animation tutorials
 
 
 ## Post-critique summary
