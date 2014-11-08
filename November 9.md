@@ -30,6 +30,12 @@ team, how did you share the labor?**
 
 2.5 hours looking into Swift, SpriteKit, Animation framework in Swift, drawing tutorials, animation tutorials
 
+0.5 hour on writing design and implementation
+
+2.5 hours working on app, got to the point where I can rotate an image and also drag it around, leaving a path behind it
+
+0.5 hour finishing critique and continuing work on design and implementation
+
 
 ## Post-critique summary
 
@@ -43,7 +49,7 @@ Again, along with my description, my plan is still not very concrete in terms of
 
 Thank you so much for the feedback Paul! It was definitely very useful, and helped me think of stuff I wasn't thinking of before. I should have been more concrete in my description, but my plan is to make this DSL solely used through a user interface. I may first textually describe the DSL (as I need some way to implement it in Swift/Objective-C), but will have to spend more time on how the user interface will look. The existing animation stuff you referenced will be very useful as I had not heard of those before, so I will spend some time this week looking into those for help in designing the language. The errors of overloading the amount of animations was something I have not considered, so that was helpful for you to point that out. I'm still unsure as to what I will do for that case, but I am hesitant to limit number of animations as hardware will continue to improve, so it would seem odd to limit it for a specific device. I may just leave it up to the user not to crash the app, but that is something I will consider more. 
 
-The point on Swift vs. Objective-C was helpful, and something that I have considered. Both can work together (TO BE CONTINUED
+The point on Swift vs. Objective-C was helpful, and something that I have considered. Both can work together, although I havent specifically looked into it. As far as I can tell so far Swift is pretty good for my use case of at least getting a prototype, but I may look further into the interopability of the two if the need arises. I will also be sure to get user feedback as I go along with the iterations of the app!
 
 Also, I appreciate the reinforcement that this is a good and interesting DSL! 
 
