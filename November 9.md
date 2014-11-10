@@ -4,13 +4,9 @@
 
 Started the week with thinking more about how I want to interface with the language, as well as looking deeply into how Swift/iOS does animation, as that would give me more ideas how I want to make the IR for the animations in order to make the implementing semantics easier. I so far have looked into ways of rotation, where I can essentially give my objects a certain number of degrees to rotate (start and end) and it will simply do so. Looking into doing translation/path, I learned how to drag an object around, as well as create (draw) lines. I will need to look into how to really put those two together, and allow the image to travel along the drawn path.
 
+Looked more in depth at different tutorials. One decision I might have to make very soon is between iOS core graphics animation versus SpriteKit animations. It seems like most of the core graphics animations may be sufficient for my purposes, but it could be easier with SpriteKit as there is the idea of having an "update" function for how things should move, and also I could possibly do more with special effects and even collisions/physics. 
 
-**TODO:** Fill in this part with information about your work this week:
-important design decisions, changes to previous decisions, open questions,
-exciting milestones, preliminary results, etc. Feel free to include images
-(e.g., a sketch of the design or a screenshot of a running program), links to
-code, and any other resources that you think will help clearly convey your
-design process.
+I have also thought more about how the IR should be, and I sort of outlined that in the data structure part of the design and implementation description. I'm not sure if I ought to be more specific/concrete in my description for this, as it is not a text-based language so the exact syntax may not be as important versus simply how it is implemented. The one design decision I really still need to concrete-ize is how the interface will really look to make it easy for users. This is something I need to think more about, and would love input for it.
 
 ## Questions
 
@@ -18,8 +14,14 @@ design process.
 you need to make, what implementation issue are you trying to solve, or how
 are you evaluating your design and implementation?**
 
+I need to figure out how I should interface my language, as that is essentially the syntax of my language. I am still learning exactly how to implement these animations in Swift, although with more time I think I can figure out the core of it. 
+
 **What questions do you have for your critique partners? How can they best help
 you?**
+
+I am wondering whether you think there is anything missing in my description of how the data structure should look? Also, would you have any suggestions for specific interface components (like possibly how specifically the user should be able to specify the chain of animations, etc.)?
+
+Is there anything I can do before the deliverables of design and implementation to concretely show what I am trying to do. What is confusing/concerning as of now that I should address?
 
 **How much time did you spend on the project this week? If you're working in a
 team, how did you share the labor?**
@@ -35,6 +37,10 @@ team, how did you share the labor?**
 2.5 hours working on app, got to the point where I can rotate an image and also drag it around, leaving a path behind it
 
 0.5 hour finishing critique and continuing work on design and implementation
+
+1.5 hours looking at the SpriteKit pig tutorial and looking into how it could be used for my project
+
+1 hour working more on data structures and design, and adding to notebook
 
 
 ## Post-critique summary
