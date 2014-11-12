@@ -21,6 +21,10 @@ you?**
 **How much time did you spend on the project this week? If you're working in a
 team, how did you share the labor?**
 
+2 hours on critique (spent a fair bit of time looking up existing tools)
+
+1.25 hours on design sketches on blackboard and critique feedback
+
 ## Post-critique summary
 
 Overall, I am making good progress and it was good to be familiar with the tools and how Swift works. Professor Ben made a good point to use the tool that will most fit my IR for choosing between CoreAnimation and SpriteKit. Especially because my language is not text based, I need to make sure that I am very careful and specific in describing what my language will actually look like, and what is to be expected for a user to use the DSL. I should have an outline of how the interactions and interface will look, and really go into more detail on how that will occur. 
