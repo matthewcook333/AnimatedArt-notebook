@@ -2,12 +2,8 @@
 
 ## Description
 
-**TODO:** Fill in this part with information about your work this week:
-important design decisions, changes to previous decisions, open questions,
-exciting milestones, preliminary results, etc. Feel free to include images
-(e.g., a sketch of the design or a screenshot of a running program), links to
-code, and any other resources that you think will help clearly convey your
-design process.
+One of the first things I realized I needed to do was give specifics as to how the user will interact with the language, so I made my design idea more concrete on a blackboard, then in the design and implementation document.
+
 
 ## Questions
 
@@ -24,6 +20,8 @@ team, how did you share the labor?**
 2 hours on critique (spent a fair bit of time looking up existing tools)
 
 1.25 hours on design sketches on blackboard and critique feedback
+
+1 hour on writing up design changes and implementation, and thinking more about the decisions.
 
 ## Post-critique summary
 
