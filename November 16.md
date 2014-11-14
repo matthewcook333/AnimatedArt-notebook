@@ -4,6 +4,8 @@
 
 One of the first things I realized I needed to do was give specifics as to how the user will interact with the language, so I made my design idea more concrete on a blackboard, then in the design and implementation document.
 
+Worked more on project, added some of the classes for the data structures. Doing so I realized I need to understand SpriteKit a bit more as I don't fully understand how I will be implementing this. I looked at the Pigs SpriteKit tutorial, which gave me a better understanding. I then wanted to make it to the user can make the images as I figured that would be a good start (be able to define images with some simple animations and say "Done!"). I watched the "Drawing with Swift in Playgrounds" tutorial, which while somewhat helpful, was also for OSX so it doesn't directly translate. Even so, most of the objects are pretty similar. It wasn't directly applicable to what I currently need, and watching it made me realize again (which I had thought earlier) that I should not focus on the drawing portion yet, and just assumed a define image to animate and do the drawing part secondary.
+
 
 ## Questions
 
@@ -22,6 +24,8 @@ team, how did you share the labor?**
 1.25 hours on design sketches on blackboard and critique feedback
 
 1 hour on writing up design changes and implementation, and thinking more about the decisions.
+
+1.5 hour looking more into how I would implement architecture in Swift project and looking at tutorials and playing around in Playground
 
 ## Post-critique summary
 
