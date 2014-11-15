@@ -6,6 +6,22 @@ One of the first things I realized I needed to do was give specifics as to how t
 
 Worked more on project, added some of the classes for the data structures. Doing so I realized I need to understand SpriteKit a bit more as I don't fully understand how I will be implementing this. I looked at the Pigs SpriteKit tutorial, which gave me a better understanding. I then wanted to make it to the user can make the images as I figured that would be a good start (be able to define images with some simple animations and say "Done!"). I watched the "Drawing with Swift in Playgrounds" tutorial, which while somewhat helpful, was also for OSX so it doesn't directly translate. Even so, most of the objects are pretty similar. It wasn't directly applicable to what I currently need, and watching it made me realize again (which I had thought earlier) that I should not focus on the drawing portion yet, and just assumed a define image to animate and do the drawing part secondary.
 
+Finished the design and implementation document. I added some sketches that I did in class to the github as I felt that would be better than spending the time to draw sketches on the computer. The link to them is [here](https://github.com/matthewcook333/AnimatedArt/tree/master/design). I will also add the more relevant pictures below:
+
+Sketch of the interface: 
+![alt text](https://github.com/matthewcook333/AnimatedArt/blob/master/design/interface.jpg "Interface")
+
+In the interface, you can see that above I have the idea of allowing the user to change previously made images/animations, although currently I do not plan on implementing that for my first iteration (unless I find it to be natural to add quickly). The drawing tools I plan to have a simple version of with multiple colors/thicknesses, which obviously that can be enhanced to allow for more sophisticated drawings.
+
+Sketch of the drop down menus for animations: 
+![alt text](https://github.com/matthewcook333/AnimatedArt/blob/master/design/animationdetails.jpg "Details")
+
+Sketch of the steps of interactions, including description of commands:
+![alt text](https://github.com/matthewcook333/AnimatedArt/blob/master/design/interactionsteps.jpg "Steps")
+
+
+
+
 
 ## Questions
 
@@ -13,8 +29,12 @@ Worked more on project, added some of the classes for the data structures. Doing
 you need to make, what implementation issue are you trying to solve, or how
 are you evaluating your design and implementation?**
 
+I would say the biggest issue right now moving forward will be how to implement this. I have a general idea of how the animations work in SpriteKit, and have it where I can have the user click a button to rotate, as well as draw a path (though still not moving along the path), so I will have to do a lot more implementation work. Design-wise, I would say overall I am content with what I have, though I would be happy to hear suggestions/criticisms/concerns for what I have in mind!
+
 **What questions do you have for your critique partners? How can they best help
 you?**
+
+Do the current set of animations/commands seem interesting enough to you? Is there something you see missing that you would love to have if you were making your own creation? If you have experience in iOS development, do you have particular suggestions for design choices/things to use for my project?
 
 **How much time did you spend on the project this week? If you're working in a
 team, how did you share the labor?**
@@ -26,6 +46,8 @@ team, how did you share the labor?**
 1 hour on writing up design changes and implementation, and thinking more about the decisions.
 
 1.5 hour looking more into how I would implement architecture in Swift project and looking at tutorials and playing around in Playground
+
+1.75 hours finishing up design and implementation document, organizing pictures, and talking to my brother about design choices and overall architecture.
 
 ## Post-critique summary
 
