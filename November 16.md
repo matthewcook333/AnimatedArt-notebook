@@ -19,8 +19,7 @@ Sketch of the drop down menus for animations:
 Sketch of the steps of interactions, including description of commands:
 ![alt text](https://github.com/matthewcook333/AnimatedArt/blob/master/design/interactionsteps.jpg "Steps")
 
-
-
+Worked a good bit more on the code itself. Going through it, I realized it makes much more sense to simply use Core Animation vs. SpriteKit (my documents might not reflect this as I did not have enough time to go back to the documents as I coded this close to this week's deadline. This will be reflected in later documents). I can use UIImageView in the same way as SKSpriteNode, and have the same capabilities of whether things are animation, and specifics of each animation. There is also more extensibility from a UIImageView vs SKSpriteNode. The downside is that SKSpriteNode has more built-in things like physics, collisions, textures (for 3D effects and such), etc. All of which I am not currently planning on using, nor plan to be a part of this DSL.
 
 
 ## Questions
@@ -48,6 +47,8 @@ team, how did you share the labor?**
 1.5 hour looking more into how I would implement architecture in Swift project and looking at tutorials and playing around in Playground
 
 1.75 hours finishing up design and implementation document, organizing pictures, and talking to my brother about design choices and overall architecture.
+
+1.5 hour on coding project, lots of figuring out how to have architecture implemented in code and Swift/iOS specific things (like init, storyboard stuff, etc.)
 
 ## Post-critique summary
 
