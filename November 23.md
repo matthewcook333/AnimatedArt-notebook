@@ -41,4 +41,8 @@ team, how did you share the labor?**
 
 ## Post-critique summary
 
+The current set of animations seem interesting, especially with the set of options for the given animations. One thing I should consider is the concept of a duration for an animation. I should consider what images should do for when they go outside the view for drawing. I should add the animation for growing and shrinking images. It would also be cool to allow for control over how the animations work rather than just have them in a linear fashion, though this may diverge from what I am currently trying to do. There are a number of things like background color that I could add to give more power to the user, but not sure how difficult the implementation would be.
+
 ## Post-critique reflection
+
+I definitely agree with the idea of adding some concept of duration, as it would be either near useless to chain something after 1 oscillation, or be very tedious to add multiple of those and then something else. Also, thank you for pointing out what images should do when drawing the path, as right now I think they are above everything, and so would show up above the animation menu. I also do plan on allowing an animation for scaling/expanding/shrinking. At the moment, I think will leave my animations in a linear fashion, as I suppose I am thinking the language more for making a drawing that moves around, but is not to the extent of a movie. Some things like allow something to disappear for some period of time could be useful, as right now there is no concept of synchronization between different drawings for when they should each complete.
