@@ -6,6 +6,12 @@ I need to really dive into the coding/implementation this week, so I begun by tr
 
 I also went much further into how I want the overall controller/view architecture to look. At one point I scrapped my project and went for a master detail view, but realized that the master table view was really far more than I needed, and would also require much more work to really customize it the way I would like. Since there are only a finite, limited number of menu options, I decided to go with a basic UIView to get the easiest and biggest gain in customizability for how it should look. I am running into a lot of trouble with sizing things in the storyboard, which is causing a lot of frustration. Other than that, the storyboard works pretty good for making new things and adding it to the code. At the moment the sizing/frames seems to just be guess and check, so maybe I ought to just turn off autoresize.
 
+Ok so I did quite a bit in terms of architecture! For one, I wanted to separate the concerns of the animation menu by allowing animations menu to have its own view controller that can control which animation type view is being shown. Went through quite a bit to get this done as Storyboard was being insanely frustrating with autosizing issues, and things disappearing/resizing to be negative pixels somehow. At this point, I made the decision I would ditch storyboard and hardcode UI elements, as I had more experience doing that. But, after doing that for a long enough time with fiddling with stuff, I realized that it is actually not a good idea as I am prototyping and could change the UI a lot, which is a huge pain with these hardcoded values. So instead, I decided to "properly" do Storyboard, rather than sort of hacking away at it until something works. Learned a bit as to how to do what I need, and got what I need so far, and it looks pretty good! Still some relative sizing issues, but nothing too major so I could probably figure out the rest later.
+
+I also decided that I will have a textfield and picker to choose the animation type, which I feel may be the easiest way for now, as it would be simpler to just change what animation type you have, and show the view for that (this is as opposed to some table with expand/contracting fields, which although I know is possible, I am not very familiar with). Architecturally, at the moment I also think I will have each of those animation type views (I have a view for each type) create the CAAnimations (Core Animations) and pass them through NSNotificationCenter to the DrawView, which can then animate the given image. I still have to decide how I can label each animation with the key to be removed later if I follow this method of having the UIImageView agnostic to what type of animation is being applied. 
+
+I spent a fair bit of time with simply UI debugging, which is frustrating, but I do feel like I am learning more about how it works in terms of how things interact with each. The Optional value type was really frustrating for me at first, since the idea is that the Storyboard is suppose to enforce those exist, yet many times they are still nil. I have learned a good bit of the different types of errors associated with this in terms of things not being connected, not having UI elements exist at the right layer, etc. I also spent some time figuring out message passing in iOS, and learning NSNotificationCenter to be able to have the drawView listen for notifications for animations, and pass the animation as an object.
+
 **TODO:** Fill in this part with information about your work this week:
 important design decisions, changes to previous decisions, open questions,
 exciting milestones, preliminary results, etc. Feel free to include images
@@ -30,6 +36,8 @@ team, how did you share the labor?**
 1.5 hour working on get rotation to work with a given image on repeat
 
 2 hours working on overall architecture and menu. Going through many iterations to figure out how to do it somewhat right, but also quickly.
+
+3.5 hours working on code: LOTS of architecture stuff and figuring out how things interact, and storyboard stuff (and back and forth changes, as explained above)
 
 ## Post-critique summary
 
