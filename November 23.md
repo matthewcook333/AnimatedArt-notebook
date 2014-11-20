@@ -12,12 +12,10 @@ I also decided that I will have a textfield and picker to choose the animation t
 
 I spent a fair bit of time with simply UI debugging, which is frustrating, but I do feel like I am learning more about how it works in terms of how things interact with each. The Optional value type was really frustrating for me at first, since the idea is that the Storyboard is suppose to enforce those exist, yet many times they are still nil. I have learned a good bit of the different types of errors associated with this in terms of things not being connected, not having UI elements exist at the right layer, etc. I also spent some time figuring out message passing in iOS, and learning NSNotificationCenter to be able to have the drawView listen for notifications for animations, and pass the animation as an object.
 
-**TODO:** Fill in this part with information about your work this week:
-important design decisions, changes to previous decisions, open questions,
-exciting milestones, preliminary results, etc. Feel free to include images
-(e.g., a sketch of the design or a screenshot of a running program), links to
-code, and any other resources that you think will help clearly convey your
-design process.
+I have been running into a lot of issues with Interface Builder and also trying to manipulate views/control flow programmatically. I spent way too much time debugging, mostly to just figure out that there are still bugs with StoryBoard/Interface Builder, and so many suggestions on StackOverflow are just to keep redoing the connections, restarting XCode and simulator, cleaning project, etc. At the end of this all and really feeling a bit hopeless with it, I decided to go with just a simple UI design without much control flow stuff. So, I am now planning on just having one static view with all of the animation types, which should be fine if I plan to keep 4-5 animation types. 
+
+After figuring that out and cleaning the code up a bit, I got to start spending time with the path creation animation. I've learn a bit of how they work, but only along two points. Still trying to figure out a way to allow the animation to take an array of CGPoints.
+
 
 ## Questions
 
@@ -38,6 +36,12 @@ team, how did you share the labor?**
 2 hours working on overall architecture and menu. Going through many iterations to figure out how to do it somewhat right, but also quickly.
 
 3.5 hours working on code: LOTS of architecture stuff and figuring out how things interact, and storyboard stuff (and back and forth changes, as explained above)
+
+1.25 hours working on critique feedback and coding and debugging XCode Interface Builder stuff.
+
+1.25 hours continuing to debug and coding views
+
+1.5 hours with more debugging Interface Builder, simplifying design to work better for prototyping, and coding animations stuff.
 
 ## Post-critique summary
 
