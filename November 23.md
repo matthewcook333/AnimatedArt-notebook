@@ -47,6 +47,8 @@ team, how did you share the labor?**
 
 1 hour working on path animation, which semi-works now!
 
+1 hour cleaning up code and debugging path and button functionality
+
 ## Post-critique summary
 
 The current set of animations seem interesting, especially with the set of options for the given animations. One thing I should consider is the concept of a duration for an animation. I should consider what images should do for when they go outside the view for drawing. I should add the animation for growing and shrinking images. It would also be cool to allow for control over how the animations work rather than just have them in a linear fashion, though this may diverge from what I am currently trying to do. There are a number of things like background color that I could add to give more power to the user, but not sure how difficult the implementation would be.
