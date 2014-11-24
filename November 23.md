@@ -47,7 +47,7 @@ team, how did you share the labor?**
 
 1 hour working on path animation, which semi-works now!
 
-1 hour cleaning up code and debugging path and button functionality
+1.5 hour cleaning up code and debugging path and button functionality
 
 ## Post-critique summary
 
