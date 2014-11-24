@@ -16,6 +16,8 @@ I have been running into a lot of issues with Interface Builder and also trying 
 
 After figuring that out and cleaning the code up a bit, I got to start spending time with the path creation animation. I've learn a bit of how they work, but only along two points. Still trying to figure out a way to allow the animation to take an array of CGPoints.
 
+Finally got a path to work! Had to make a fair number of changes. No longer use my Line class and the array of points, instead I save the point in a BezierCurve in order to easily animation the path. Now I realize I have to do a lot more with CALayers, and realizing everything I am doing is with that, and not with UIViews. As a result, I have decided to make my Animatable a CALayer, rather than UIImageView, as otherwise I can't animate it with a CAAnimation easily. 
+
 
 ## Questions
 
@@ -42,6 +44,8 @@ team, how did you share the labor?**
 1.25 hours continuing to debug and coding views
 
 1.5 hours with more debugging Interface Builder, simplifying design to work better for prototyping, and coding animations stuff.
+
+1 hour working on path animation, which semi-works now!
 
 ## Post-critique summary
 
