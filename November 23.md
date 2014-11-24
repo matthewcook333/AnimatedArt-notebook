@@ -25,8 +25,13 @@ Finally got a path to work! Had to make a fair number of changes. No longer use 
 you need to make, what implementation issue are you trying to solve, or how
 are you evaluating your design and implementation?**
 
+The next thing I want to do is add the slider for the speeds of the animations, and then allow for user drawn animations. At that point I plan to add the other animation types, as I feel those are more easily figured out, but I want to have the core of the project there first. What do you think of that idea, or do you think I should do something else or prioritize differently?
+
+
 **What questions do you have for your critique partners? How can they best help
 you?**
+
+What do you think about the prototype? What seems the least intuitive (probably many things as I still need to fix it up), but something maybe I haven't considered and should consider doing to make it easier or more intuitive to use?
 
 **How much time did you spend on the project this week? If you're working in a
 team, how did you share the labor?**
