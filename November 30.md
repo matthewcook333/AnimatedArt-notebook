@@ -2,12 +2,11 @@
 
 ## Description
 
-**TODO:** Fill in this part with information about your work this week:
-important design decisions, changes to previous decisions, open questions,
-exciting milestones, preliminary results, etc. Feel free to include images
-(e.g., a sketch of the design or a screenshot of a running program), links to
-code, and any other resources that you think will help clearly convey your
-design process.
+Did user testing and preliminary evaluation, so less to report on this week, as most of that
+can be found in the critique feedback and the evalation document. Beyond that, it was thanksgiving
+break so I did not work on the project as much. Feel free to download the project and open it in XCode! It should
+be pretty easy to do on a Mac, and probably close to impossible on PC. Anyways, more user feedback can be nice, but 
+probably read critique feedback and preliminary evaluation before then for feedback already given.
 
 ## Questions
 
@@ -15,8 +14,15 @@ design process.
 you need to make, what implementation issue are you trying to solve, or how
 are you evaluating your design and implementation?**
 
+I need to implement the changes from the user feedback. With this, I do not have as many design 
+decisions I need to make, mostly just coding the changes as I do agree that they are important.
+
 **What questions do you have for your critique partners? How can they best help
 you?**
+
+Maybe try out the language in its current state, keeping in mind the changes I already plan to make. Are
+there are aspects you would like me to focus on to see come to fruition by the end of the semester? I would
+like to know what features would be cool to have as the next iteration prototype.
 
 **How much time did you spend on the project this week? If you're working in a
 team, how did you share the labor?**
@@ -26,6 +32,10 @@ team, how did you share the labor?**
 1.5 hours on critique
 
 1.25 hours on brand/name design and brainstorming
+
+1 hour on critique feedback, preliminary evaluation and notebook.
+
+THANKSGIVING BREAK
 
 ## Post-critique summary
 
