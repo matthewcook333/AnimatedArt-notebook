@@ -2,12 +2,9 @@
 
 ## Description
 
-**TODO:** Fill in this part with information about your work this week:
-important design decisions, changes to previous decisions, open questions,
-exciting milestones, preliminary results, etc. Feel free to include images
-(e.g., a sketch of the design or a screenshot of a running program), links to
-code, and any other resources that you think will help clearly convey your
-design process.
+***12/1***
+
+Started working on the project this week by implementing speed sliders. I now have a rotation speed slider working, although there are changes I would like to make to it as right now it resets the position every time the slider changes, and I would rather it just update the old animation that existed. To do so cleanly may require some refactoring of the code.
 
 ## Questions
 
@@ -20,6 +17,10 @@ you?**
 
 **How much time did you spend on the project this week? If you're working in a
 team, how did you share the labor?**
+
+1.25 hours on critique
+
+1 hour working on speed sliders
 
 ## Post-critique summary
 
