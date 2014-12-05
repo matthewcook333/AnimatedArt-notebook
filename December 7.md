@@ -14,6 +14,10 @@ Got the rotation speed slider to not reset each time the slider is moved, which 
 
 The path now hides on "Done", which is good. One issue is that I am removing the layer by checking if it is a CAShapeLayer, which is fine for now, but once I add the ability to draw it will be an issue. Currently looking into how I can make drawn pictures animated. It seems like it will not be too bad, as I can simply make the CGPath drawn into a CAShapeLayer and make that the "CurrentAnimatable". I need to see if there is some way to add keys possibly to each sublayer, or when removing paths, I could first check to make sure it is not "Animatable" type so that I do not remove those.
 
+***12/5***
+
+Having a fair bit of trouble understanding the ImageContexts correctly to try to get an image as the contents of the Animatable. I finally got it so that I could make a UIImage out of the ImageContext I make using the drawn path, but setting that to the contents of the Animatable is not doing anything, even when forcing the layer to redisplay. Still investigating this issue, currently trying to override the display function for Animatable but having issues with contents being nil for some reason.
+
 ## Questions
 
 **What is the most pressing issue for your project? What design decision do
@@ -33,6 +37,10 @@ team, how did you share the labor?**
 1.5 hour working on smoothing out rotation speed slider and implementing path speed slider and instant feedback of animation after drawing
 
 0.5 hours on path hiding and thinking about drawn images and critique feedback
+
+1.25 hours working on image drawing
+
+1 hour continuing work on image drawing
 
 ## Post-critique summary
 
