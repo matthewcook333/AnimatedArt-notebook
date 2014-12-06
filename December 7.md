@@ -42,6 +42,8 @@ team, how did you share the labor?**
 
 1 hour continuing work on image drawing
 
+0.5 hour working on image drawing, have a terribly buggy version at this point
+
 ## Post-critique summary
 
 Overall, my interface and what I have so far is pretty good, but is not complete given a prototype. As I cannot easily has sample applications, I need to make sure that it is easy for a user to know how to make something. One way to do this is to guide them through what they should be doing next. One important feature for me to add is the speed sliders. Also, what would be nice is to allow for user-drawn images, as that would more closely express what I want to allow the user to do. Also, adding more animations rather than allow for chaining is a fair goal to have done by the end of the semester.
