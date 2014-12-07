@@ -18,6 +18,10 @@ The path now hides on "Done", which is good. One issue is that I am removing the
 
 Having a fair bit of trouble understanding the ImageContexts correctly to try to get an image as the contents of the Animatable. I finally got it so that I could make a UIImage out of the ImageContext I make using the drawn path, but setting that to the contents of the Animatable is not doing anything, even when forcing the layer to redisplay. Still investigating this issue, currently trying to override the display function for Animatable but having issues with contents being nil for some reason.
 
+***12/6***
+
+Worked on a preliminary draft of the final document. Most of similar to previous documents, with some changes based on what has changed in the last couple weeks. Saving the evaluation for after I do some more coding to see what I can first get done in order to do more extensive testing on what works well. Also looked into more ways for image drawing. I may go back to one of the methods I was actually originally trying, where I make the path a CAShapeLayer (like the current path drawn is shown as). I think I would try to make the layer possibly a sublayer of the Animatable (which would add some more complexity), or extract the image out of the layer and add that to the contents of the Animatable, if that works. 
+
 ## Questions
 
 **What is the most pressing issue for your project? What design decision do
@@ -43,6 +47,8 @@ team, how did you share the labor?**
 1 hour continuing work on image drawing
 
 0.5 hour working on image drawing, have a terribly buggy version at this point
+
+2 hours working on final document, as well as looking into alternative ways for image drawing
 
 ## Post-critique summary
 
