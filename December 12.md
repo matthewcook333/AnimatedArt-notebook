@@ -20,11 +20,6 @@ team, how did you share the labor?**
 
 2 hours finishing color changing for drawing and moving UI elements
 
-
-
-## Post-critique summary
-
-
-## Post-critique reflection
+1.5 hours cleaning up code and finished final document
 
 
